@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+  }
+  .outer {
+    height: 115px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(170, 11, 11);
+    display: flex;
+  }
+  .fb {
+    height: 42px;
+    margin-left: 320px;
+    margin-top: 20.5px;
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+  }
+  .ig {
+    height: 34px;
+    margin-left: -1px;
+    margin-top: 24.5px;
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+  }
+
+  #logo {
+    height: 120px;
+    margin-left: -11px;
+    margin-top: -60px;
+  }
+
+  #inner {
+    height: 90px;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  a {
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-top: -25px;
+  }
+  a:hover {
+    color: rgb(234, 65, 65);
+
+    border-bottom: solid rgb(100, 192, 223) 2px;
+  }
+
+  li {
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  button {
+    height: 50px;
+    width: 128px;
+    background-color: rgb(177, 22, 22);
+    color: white;
+    border: 0;
+    margin-top: -38px;
+    border-radius: 10px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(209, 50, 50);
+  }
+
+  #ph1 {
+    background-color: rgb(170, 11, 11);
+    height: 25px;
+    width: 200px;
+    margin-left: 500px;
+    margin-top: 4px;
+    color: white;
+    font-size: 20px;
+    border-left: solid white 1px;
+
+    padding-left: 40px;
+  }
+  #ph2 {
+    background-color: rgb(170, 11, 11);
+    height: 25px;
+    width: 200px;
+    margin-left: -69px;
+    margin-top: 4px;
+    color: white;
+    font-size: 20px;
+    border-left: solid white 1px;
+
+    padding-left: 40px;
+  }
+  #ph3 {
+    background-color: rgb(170, 11, 11);
+    height: 25px;
+    width: 200px;
+    margin-left: -69px;
+    margin-top: 4px;
+    color: white;
+    font-size: 20px;
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+    padding-left: 40px;
+  }
+  .k {
+    display: flex;
+    gap:40px;
+    font-size: 20px;
+  }
+
+  .tbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #bb {
+    width: 100%;
+    height: 949px;
+    
+    position: absolute;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+
+  #form {
+    height: 690px;
+    width: 30%;
+    background-image: linear-gradient(to right, rgb(206, 22, 22) , rgb(243, 95, 95));
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    opacity: 0.85;
+    border-radius: 10px;
+  }
+
+  #title {
+    height: 690px;
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #text {
+    font-size: x-large;
+    height: 240px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding-top: 15px;
+  }
+
+  .bg {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-filter: blur(4px);
+  }
+
+  .form{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(236, 159, 159);
+    border: 0;
+    border-radius: 4px;
+  }
+  #sbutton{
+    width: 350px;
+    height: 45px;
+    background-color: rgb(236, 159, 159);
+    border: solid rgb(153, 33, 33) 3px;
+    font-size: 15px;
+    border-radius: 7px;
+  }
+  .dd{
+    background-color: rgb(219, 109, 109);
+    width: 350px;
+    height: 30px;
+    color: white;
+    font-size: medium;
+    border: 0;
+    display: flex;
+    
+  }
+
+  #footerimg{
+    width: 100%;
+    margin-top: -10px;
+    border: solid black 10px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  #footer{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    
+    margin-top: 3000px;
+    display: flex;
+  }
+
+  .box{
+    position: relative;
+    z-index: 2;
+    height: 400px;
+    width: 33.33%;
+    border: Solid black 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin-top: 70px;
+  }
+
+  #a{
+    height: 70px;
+    margin-top: 10px;
+  }
+
+  #m{
+    height: 100px;
+    margin-top: -24px;
+    height: 88px;
+    width: 88px;
+  }
+
+  #c{
+    height: 80px;
+    margin-top: -28px;
+    height: 63px;
+    width: 63px;
+    padding-bottom: 20px;
+  }
+
+  #card-bg{
+    height: 700px;
+    width: 74%;
+    background-color: white;
+    margin-left: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+  }
+
+  .card{
+    height: 49.7%;
+    width: 33.05%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 100px rgb(238, 237, 237);
+  }
+
+  #f-logo{
+    height: 40%;
+    width: 40%;
+    position: absolute;
+  }
+
+  .h2{
+    font-size: 24px;
+  }
+
+  .card{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  .red{
+   position: absolute;
+   z-index: 1;
+   height: 40px;
+   width: 40px;
+   background-color: rgb(167, 0, 0); 
+   transform: rotateZ(45deg);
+   margin-top: -347px;
+   margin-left: 467px;
+   transition-duration: 1s;
+   display: none;
+   animation-name: scale;
+   animation-duration: 0.6s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+  }
+
+  @keyframes scale{
+    0%{
+      height: 40px;
+      width: 40px;
+    }
+
+    100%{
+      height: 65px;
+      width: 65px;
+    }
+
+  }
+
+  .card:hover .red {
+    display: block;
+    transform: rotateZ(45deg);
+  }
+
+  .icon{
+    transition-duration: 0.6s;
+  }
+
+  .card:hover .icon{
+    color: rgb(167, 0, 0);
+  }
+  
+
+  #UIIT-Broucher1{
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  #UIIT-Broucher2{
+    width: 100%;
+  }
